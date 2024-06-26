@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Effects in JQuery</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="assets\js\effects.js"></script>
-    <style> 
-        #panel, #flip {
-          padding: 5px;
-          text-align: center;
-          background-color: #cceeec;
-          border: solid 1px #c3c3c3;
-        }
-        
-        #panel {
-          padding: 50px;
-          display: none;
-        }
-        </style>
-</head>
-<body>
+    <style>
+      #panel,
+      #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #cceeec;
+        border: solid 1px #c3c3c3;
+      }
+
+      #panel {
+        padding: 50px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
     <p>If you click on the "Hide" button, I will disappear.</p>
 
-<button id="hide">Hide</button>
-<button id="show">Show</button>
-<p>Demonstrate fadeIn() with different parameters.</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <p>Demonstrate fadeIn() with different parameters.</p>
 
-<button>Click to fade in boxes</button><br><br>
+    <button id="btn1">Click to fade in boxes</button><br /><br />
 
-<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
-<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
-<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+    <div
+      id="div1"
+      style="width: 80px; height: 80px; display: none; background-color: red"
+    ></div>
+    <br />
+    <div
+      id="div2"
+      style="width: 80px; height: 80px; display: none; background-color: green"
+    ></div>
+    <br />
+    <div
+      id="div3"
+      style="width: 80px; height: 80px; display: none; background-color: blue"
+    ></div>
 
-<div id="flip">Click to slide down panel</div>
-<div id="panel">Hello world!</div>
+    <div id="flip">Click to slide down panel</div>
+    <div id="panel">Hello world!</div>
 
-</body>
+    <p>Demonstrate fadeTo() with different parameters.</p>
+
+    <button id="btn2">Click to fade boxes</button><br /><br />
+
+    <div
+      id="div4"
+      style="width: 80px; height: 80px; background-color: rgb(255, 242, 0)"
+    ></div>
+    <br />
+    <div
+      id="div5"
+      style="width: 80px; height: 80px; background-color: rgb(0, 255, 0)"
+    ></div>
+    <br />
+    <div
+      id="div6"
+      style="width: 80px; height: 80px; background-color: rgb(0, 255, 221)"
+    ></div>
+
+
+    <button id="btn3">Start Animation</button>
+
+    <div id="div8" style="background:#21bfbc;height:100px;width:100px;position:absolute;"></div>
+
+
+  </body>
 </html>
