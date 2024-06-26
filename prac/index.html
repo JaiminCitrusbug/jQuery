@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS FORM TASK</title>
+    <link rel="stylesheet" href="assets\css\forms.css" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Register Form</h1>
+      <form  onsubmit="return validateForm()">
+        <div><p class="formlabels">Full name</p></div>
+        <div><input class="inputs" type="text" name="namef" id="name" /></div>
+        <div><p class="formlabels">Email Address</p></div>
+        <div><input class="inputs" type="text" name="emailf" id="email" /></div>
+        <div><p class="formlabels">Phone no.</p></div>
+        <div><input class="inputs" type="text" name="phonef" id="phone" placeholder="e.g. +91 9342342242"/></div>
+        <div><p class="formlabels">Zipcode</p></div>
+        <div><input class="inputs" type="text" name="zipf" id="zip" /></div>
+        <div><p class="formlabels">Enter your birthdate</p></div>
+        <div>
+          <input type="date" name="datef" id="date" class="inputs date" />
+        </div>
+        <div><p class="formlabels radiolabel">Gender</p></div>
+        <div>
+          <input type="radio" name="Gender" class="radioinput" />
+          <p class="formlabels radiotext">Male</p>
+          <input type="radio" name="Gender" class="radioinput" />
+          <p class="formlabels radiotext">Female</p>
+          <input type="radio" name="Gender" class="radioinput" />
+          <p class="formlabels radiotext">Other</p>
+        </div>
+        <div>
+          <p class="formlabels">Hobby</p>
+        </div>
+        <div>
+          <input type="checkbox" class="checkboxes formlabels" name="hobby"/>Sports
+          <input type="checkbox" class="checkboxes formlabels" name="hobby"/>Gaming
+          <input type="checkbox" class="checkboxes formlabels" name="hobby"/>Traveling
+          <input type="checkbox" class="checkboxes formlabels" name="hobby"/>Foodie
+          <input type="checkbox" class="checkboxes formlabels" name="hobby"/>Music
+        </div>
+        <div>
+          <p class="formlabels">Technology</p>
+        </div>
+        <div>
+          <input type="checkbox" class="checkboxes formlabels" name="techno"/>Python
+          <input type="checkbox" class="checkboxes formlabels" name="techno"/>PHP
+          <input type="checkbox" class="checkboxes formlabels" name="techno"/>Java
+          <input type="checkbox" class="checkboxes formlabels" name="techno"/>HTML
+          <input type="checkbox" class="checkboxes formlabels" name="techno"/>CSS
+        </div>
+        <!-- <div>
+          <p class="formlabels">Summary</p>
+          <p id="sumname"></p>
+          <p id="sumemail"></p>
+          <p id="sumphone"></p>
+          <p id="sumzip"></p>
+          <p id="sumbdate"></p>
+          <p id="sumgender"></p>
+          <p id="sumhobby"></p>
+          <p id="sumtechnology"></p>
+        </div> -->
+        <div align="center"><input type="submit" value="Submit" id="submit">
+        &nbsp;&nbsp;
+        <input type="reset" value="Reset" id="reset"></div>
+      </form>
+    </div>
+    <script src="assets\js\forms.js"></script>  
+</body>
+
+</html>
