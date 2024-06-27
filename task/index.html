@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK 2</title>
+    <style>
+      * {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .heading {
+        font-size: 32px;
+      }
+      .formlabels {
+        font-size: 16px;
+      }
+      .inputs {
+        width: 90%;
+        height: 35px;
+        /* margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px; */
+        /* border-color: rgb(237, 236, 236); */
+      }
+      .radioinput,
+      .radiotext {
+        display: inline;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="task.js"></script>
+  </head>
+  <body>
+    <form>
+      <div><p class="formlabels">Full name</p></div>
+      <div class="input_checks">
+        <input class="inputs" type="text" name="namef" id="name" />
+        <input
+          type="checkbox"
+          name="fullname"
+          id="full_name"
+          class="checks"
+          checked
+        />
+      </div>
+      <div><p class="formlabels">Email Address</p></div>
+      <div class="input_checks">
+        <input class="inputs" type="text" name="emailf" id="email" />
+        <input
+          type="checkbox"
+          name="emailadd"
+          id="email_add"
+          class="checks"
+          checked
+        />
+      </div>
+      <div><p class="formlabels">Phone no.</p></div>
+      <div class="input_checks">
+        <input
+          class="inputs"
+          type="text"
+          name="phonef"
+          id="phone"
+          placeholder="e.g. +91 9342342242"
+        /><input
+          type="checkbox"
+          name="tele"
+          id="tele_phone"
+          class="checks"
+          checked
+        />
+      </div>
+      <div><p class="formlabels">Zipcode</p></div>
+      <div class="input_checks">
+        <input class="inputs" type="text" name="zipf" id="zip" /><input
+          type="checkbox"
+          name="zipc"
+          id="zip_code"
+          class="checks"
+          checked
+        />
+      </div>
+    </form>
+
+    
+  </body>
+</html>
