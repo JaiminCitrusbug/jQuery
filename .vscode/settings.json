@@ -1,5 +1,9 @@
 {
     "cSpell.words": [
+        "emailadd",
+        "emailf",
+        "formlabels",
+        "fullname",
         "jsbdate",
         "jsemail",
         "jsgender",
@@ -9,13 +13,20 @@
         "jsradio",
         "jstechno",
         "jszipcode",
+        "namef",
+        "phonef",
+        "radioinput",
+        "radiotext",
         "sumbdate",
         "sumemail",
         "sumgender",
         "sumname",
         "sumphone",
         "sumzip",
+        "tele",
+        "zipc",
         "zipcode",
-        "Zipcode"
+        "Zipcode",
+        "zipf"
     ]
 }
